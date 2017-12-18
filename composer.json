@@ -10,7 +10,6 @@
             "email": "soft@screencountry.com"
         }
     ],
-    "homepage": "http://www.screencountry.com",
     "require": {
         "php": ">=5.3.0",
         "ext-iconv": "*",
