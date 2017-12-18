@@ -345,7 +345,7 @@ class PDFObject
                         if ($current_position_tm['x'] !== false) {
                             $delta = abs(floatval($x) - floatval($current_position_tm['x']));
                             if ($delta > 10) {
-                                $text .= "\t";
+                                $text .= str_repeat("\t", floor($delta/10));
                             }
                         }
                         if ($current_position_tm['y'] !== false) {

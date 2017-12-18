@@ -91,7 +91,7 @@ class Parser
         ob_end_clean();
 
         if (isset($xref['trailer']['encrypt'])) {
-            throw new \Exception('Secured pdf file are currently not supported.');
+            throw new \Exception('Secured pdf files are not supported. Open the file in Acrobat Reader or Preview -> Print -> Save as PDF');
         }
 
         if (empty($data)) {
