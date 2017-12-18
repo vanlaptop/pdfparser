@@ -19,15 +19,10 @@
         "atoum/atoum": "^2.8 | ^3.0"
     },
     "autoload": {
-        "psr-4": {
-            "PdfParser\\": "src"
+        "psr-0": {
+            "vanlaptop\\PdfParser\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-          "PdfParser\\": "src"
-        }
-      },
     "config": {
         "process-timeout": 1200
     }
