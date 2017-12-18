@@ -1,19 +1,16 @@
 {
-    "name": "smalot/pdfparser",
-    "description": "Pdf parser library. Can read and extract information from pdf file.",
-    "keywords": ["PDF", "text", "parser", "parse", "extract"],
+    "name": "vanlaptop/pdfparser",
+    "description": "Pdf parser library fork from Smalot/pdfparser to fit internal templated. Can read and extract information from pdf file.",
+    "keywords": [],
     "type": "library",
     "license": "LGPLv3",
     "authors": [
         {
-            "name": "Sebastien MALOT",
-            "email": "sebastien@malot.fr"
+            "name": "Artem Shcherbakov",
+            "email": "soft@screencountry.com"
         }
     ],
-    "support": {
-        "issues": "https://github.com/smalot/pdfparser/issues"
-    },
-    "homepage": "http://www.pdfparser.org",
+    "homepage": "http://www.screencountry.com",
     "require": {
         "php": ">=5.3.0",
         "ext-iconv": "*",
@@ -24,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Smalot\\PdfParser\\": "src/"
+            "vanlaptop\\PdfParser\\": "src/"
         }
     },
     "config": {
