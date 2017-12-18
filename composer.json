@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "vanlaptop\\PdfParser\\": "src/"
+            "vanlaptop\\PdfParser\\": "src"
         }
     },
     "config": {
