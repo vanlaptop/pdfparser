@@ -20,9 +20,14 @@
     },
     "autoload": {
         "psr-4": {
-            "vanlaptop\\PdfParser\\": "src"
+            "PdfParser\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+          "PdfParser\\": "src"
+        }
+      },
     "config": {
         "process-timeout": 1200
     }
