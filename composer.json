@@ -6,8 +6,8 @@
     "license": "LGPLv3",
     "authors": [
         {
-            "name": "Artem Shcherbakov",
-            "email": "soft@screencountry.com"
+            "name": "Sebastien MALOT",
+            "email": "sebastien@malot.fr"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "vanlaptop\\PdfParser\\": "src/"
+            "Smalot\\PdfParser\\": "src/"
         }
     },
     "config": {
